@@ -1,2 +1,3 @@
 ﻿var app = angular.module("app", ["MoviesModule"]);
-var moviesModule = angular.module("MoviesModule", []);
+var commonModule = angular.module("CommonModule", []);
+var moviesModule = angular.module("MoviesModule", ["CommonModule"]);

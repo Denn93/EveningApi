@@ -118,8 +118,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-    <Content Include="app\movie\MoviesController.js" />
-    <Content Include="app\movie\MoviesService.js" />
+    <Content Include="app\common\ApiService.js" />
+    <Content Include="app\moviemodule\MoviesController.js" />
+    <Content Include="app\moviemodule\MoviesService.js" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
